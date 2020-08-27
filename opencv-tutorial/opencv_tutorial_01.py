@@ -60,7 +60,6 @@ cv2.waitKey(0)
 rotated = imutils.rotate(image, -45)
 cv2.imshow("Imutils Rotation", rotated)
 cv2.waitKey(0)
-
 # OpenCV doesn't "care" if our rotated image is clipped after rotation
 # so we can instead use another imutils convenience function to help
 # us out
