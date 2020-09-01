@@ -16,7 +16,7 @@ sobelY = np.uint8(np.absolute(sobelY))
 
 sobelCombined = cv2.bitwise_or(sobelX, sobelY)
 
-edgeCanny = cv2.Canny(img, 100, 200)
+edgeCanny = cv2.Canny(img, 100, 200) # apparently less noise
 
 titles = ['image', 'Laplacian', 'sobelX', 'sobelY', 'sobelCombined', 'canny']
 images = [img, lap, sobelX, sobelY, sobelCombined, edgeCanny]
