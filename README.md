@@ -1,6 +1,6 @@
 ![Verlab Logo](/utils/logo-VerLab.png) 
 
-### Laboratory of Computer Vision and Robotics - UFMG :robot::computer:
+### Computer Vision and Robotics Laboratory - UFMG :robot::computer:
 
 Use this repository to keep learning resources, articles, references and useful resources in general
 
